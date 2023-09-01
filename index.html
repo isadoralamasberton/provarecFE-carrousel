@@ -1,1 +1,65 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Galeria de Imagens</title>
+  <style>
+    body {
+        background-color: #61b0ff;
+    }
+    h1{
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <h1>
+        Galeria de artes
+    </h1>
+  <div class="container mt-5">
+    <div id="imagem-carousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#imagem-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#imagem-carousel" data-slide-to="1"></li>
+        <li data-target="#imagem-carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://cdn.pariscityvision.com/library/image/5449.jpg" class="d-block w-100" alt="Imagem 1">
+          <div class="carousel-caption">
+            <h3>Monalisa</h3>
+            <p> A mais notável e conhecida obra pintada por Leonardo da Vinci.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.papeiseparede.com.br/4692-thickbox_default/papel-de-parede-a-noite-estrelada-por-vincent-van-gogh.jpg.webp" class="d-block w-100" alt="Imagem 2">
+          <div class="carousel-caption">
+            <h3>A noite estrelada</h3>
+            <p>A Noite Estrelada é uma pintura muito famosa pintada por Vincent van Gogh de 1889. </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.culturagenial.com/imagens/moca-com-o-brinco-de-perola-johannes-vermeer-wallpaper-cke.jpg" class="d-block w-100" alt="Imagem 3">
+          <div class="carousel-caption">
+            <h3>Meisje met de parel</h3>
+            <p>"Moça do brinco de pérola" é uma pintura do artista neerlandês Johannes Vermeer de 1665.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#imagem-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#imagem-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
